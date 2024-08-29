@@ -1,0 +1,5 @@
+phrase = input("Itroduce a phrase: ")
+vocal = input("introduce a vocal: ")
+vocal = vocal.lower()
+alteredPhrase = phrase.replace(vocal, vocal.upper())
+print("Your phrase with the capital vocal is: ", alteredPhrase)
